@@ -10,6 +10,6 @@ namespace ServiceManager.Contracts
         /// </summary>
         /// <param name="lines"></param>
         /// <returns></returns>
-        List<MessageDTO> ParseToMessageDTO(string[] lines);
+        List<MessageDTO> ParseToMessageDTO(string[] lines);//
     }
 }
