@@ -84,7 +84,7 @@ namespace ServiceManager.Implementation
         }
 
         private string TryGetPort(string[] lines)
-        {
+        {//
             string port = null;
             try
             {
